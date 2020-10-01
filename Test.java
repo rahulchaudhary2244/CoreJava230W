@@ -4,13 +4,17 @@ public class Test {
 	public static void main(String[] args) {
 		// ram is a instance of Employee Class
 		// shyam ref var + local var + object
-		Employee shyam = new Employee(1001,"Shyam",9999);
 		//shyam = new Employee();
+		Employee shyam = new Employee(1001,"Shyam",9999);
 		shyam.print();
-		System.out.println("****************************8");
+		System.out.println("*****************************");
+		//ram = new Employee();
 		Employee ram = new Employee(1002,"Ram",7777);
 		ram.print();
-		
+		System.out.println("*****************************");
+		//harry = new Employee();
+		Employee harry= new Employee(1002,"Harry",8989);
+		harry.print();
 		/*shyam.id = -1001;
 		shyam.name="      ";
 		shyam.salary=-9000;*/
